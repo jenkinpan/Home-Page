@@ -14,6 +14,16 @@ const router = createRouter({
       component: () => import("../views/About.vue"),
     },
     {
+      path: "/contact",
+      name: "contact",
+      component: () => import("../views/Contact.vue"),
+    },
+    {
+      path: "/team",
+      name: "team",
+      component: () => import("../views/Team.vue"),
+    },
+    {
       path: "/todo",
       name: "todo",
       component: () => import("../views/TodoList.vue"),
